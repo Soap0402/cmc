@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/surveydata?serverTimezone=UTC&characterEncoding=UTF-8
+    password: password
+  thymeleaf:
+    cache: 'false'
+  freemarker:
+    cache: 'false'
+  devtools:
+    livereload:
+      enabled: 'true'
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update

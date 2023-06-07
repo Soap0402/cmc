@@ -1,0 +1,67 @@
+body {
+    background: #a3c4f0;
+    margin: 0;
+}
+
+section{
+    width: 70vw;
+    height: 30vh;
+    background: cornsilk;
+    margin: 30px;
+    border-radius: 2vw;
+    border: 1px solid black;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    font-size: 2rem;
+}
+
+.r2{
+    text-align: center;
+    width: 18%;
+    height: 50%;
+    font-size: 3rem;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.question{
+    margin: 15px;
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    box-sizing: border-box;
+}
+
+.submit{
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    padding: 10px 20px; font-size: 1.5rem; font-weight: bold;
+}
+
+hr{
+    color: red;
+    border: 1px solid;
+}
+
+*{
+    font-family: 'Dongle', sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+.sub{
+    width: 10%;
+    height: 10%;
+    font-size: 2rem;
+}
+

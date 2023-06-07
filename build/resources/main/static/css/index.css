@@ -1,0 +1,148 @@
+/* Header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #1C1C1C;
+    height: fit-content;
+}
+
+.header-content img {
+    max-height: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 10px;
+    color: #6b6050;
+    text-decoration: none;
+}
+
+/* Main Section */
+.section-container {
+    display: flex;
+}
+
+.section-text {
+    flex: 1;
+    padding: 20px;
+    background: #384670;
+    color: #6b6055;
+    font-size: xx-large;
+    color: white;
+}
+
+.image-container{
+    float: left;
+}
+/*.section-image {*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background: #384670;*/
+/*}*/
+
+/*.section-image img {*/
+/*    max-width: 100%;*/
+/*    max-height: 100%;*/
+/*}*/
+
+/* Sidebar */
+.vertical-menu {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f5f0e1;
+}
+
+.sidebar .menu-item {
+    display: block;
+    padding: 10px;
+    color: #6b6050;
+    text-decoration: none;
+    border-bottom: 1px solid #d8d1bd;
+}
+
+.sidebar .menu-item:last-child {
+    border-bottom: none;
+}
+
+.sidebar .menu-item:hover {
+    background-color: #d8d1bd;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    background-color: #1C1C1C;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    height: fit-content;
+}
+
+.wed {
+    float: left;
+    width: 30%;
+    margin: 15px;
+    padding: 5px;
+    border: black solid 1px;
+}
+
+.fun {
+    float: left;
+    width : 30%;
+    margin: 15px;
+    border: black solid 1px;
+    padding: 5px;
+
+    }
+
+.sae {
+    float: left;
+    width : 30%;
+    margin: 15px;
+    border: black solid 1px;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+.orange_text{
+    color: #FF6D33;
+    font-size: 5rem;
+    margin: 10px;
+}
+
+.white_text{
+    color: #f5f0e1;
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+*{
+    font-family: 'Dongle', sans-serif;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: xx-large;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>설문페이지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/survey.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+<body>
+<header>
+  <div class="header-content">
+    <!--        <h1 class="logo"></h1>-->
+    <a href="http://localhost:8080">
+      <img src="image/logo.png">
+    </a>
+    <nav class="menu">
+      <a class="menu-item" href="/survey">설문</a>
+      <a class="menu-item" href="#">게시판</a>
+    </nav>
+  </div>
+</header>
+<center>
+  <form action="http://localhost:8080/wedding" method="post"/>
+  <section>
+    <h1>성별을 알려주세요</h1>
+    <div class="question">
+      <input type="radio" name="gender" value="남성" class="r1"> 남성
+      <input type="radio" name="gender" value="여성" class="r1"> 여성
+    </div>
+  </section>
+  <section>
+    <h1>나이를 알려주세요</h1>
+    <div class="question">
+      <input type="radio" name="age" value="20대" class="r1"> 20대
+      <input type="radio" name="age" value="30대" class="r1"> 30대
+      <input type="radio" name="age" value="40대" class="r1"> 40대
+      <input type="radio" name="age" value="50대" class="r1"> 50대 이상
+    </div>
+  </section>
+  <section>
+    <h1>결혼여부</h1>
+    <div class="question">
+      <input type="radio" name="marry" value="기혼" class="r1"> 기혼
+      <input type="radio" name="marry" value="미혼" class="r1"> 미혼
+    </div>
+  </section>
+  <section>
+    <h1>최근 얼마를 축의 하셨나요?</h1>
+    <div class="question">
+      <input type="number" placeholder="(단위:만원)" name="money" value="축의" class="r2">
+    </div>
+  </section>
+  <section>
+    <h1>결혼식 당사자와 관계</h1>
+    <div class="question">
+      <input type="radio" name="relation" value="절친" class="r1"> 절친
+      <input type="radio" name="relation" value="직장동료" class="r1"> 직장동료
+      <input type="radio" name="relation" value="동창" class="r1"> 동창
+      <input type="radio" name="relation" value="친인척" class="r1"> 친인척
+      <input type="radio" name="relation" value="친인척" class="r1"> 아는사이
+    </div>
+  </section>
+<br>
+<input type="submit" class="sub">
+</center>
+  </form>
+</body>
+<footer>
+  <p>주문형실습 5조.</p>
+</footer>
+</html>

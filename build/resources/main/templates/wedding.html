@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>결혼식 축의금</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <!--        <h1 class="logo"></h1>-->
+        <a href="http://localhost:8080">
+            <img src="image/logo.png">
+        </a>
+        <nav class="menu">
+            <a class="menu-item" href="/survey">설문</a>
+            <a class="menu-item" href="#">게시판</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="section-container">
+        <div class="section-text">
+        <h2>결혼식 축의금 데이터</h2>
+        <hr>
+        <table>
+        <tr>
+<!--            <th>아이디</th>-->
+            <th>나이</th>
+            <th>성별</th>
+            <th>금액</th>
+            <th>관계(친밀도)</th>
+            <th>결혼여부</th>
+        </tr>
+            <tr th:each="survey: ${surveyList}">
+<!--            <td th:text="${survey.getId()}"></td>-->
+            <td th:text="${survey.age}"></td>
+            <td th:text="${survey.gender}"></td>
+            <td th:text="${survey.money}"></td>
+            <td th:text="${survey.relation}"></td>
+            <td th:text="${survey.marry}"></td>
+        </tr>
+        </table>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <p>주문형실습 5조.</p>
+    <p>정재환, 서청원, 원종국</p>
+</footer>
+</body>
+</html>
